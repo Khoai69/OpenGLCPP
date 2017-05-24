@@ -40,7 +40,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(SolutionDir)..\..\lib\glfw\include;$(SolutionDir)..\..\lib\soil\src;$(SolutionDir)..\..\lib\glew\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)..\..\lib\glm\;$(SolutionDir)..\..\lib\glew\include\;$(SolutionDir)..\..\lib\glfw\include\;$(SolutionDir)..\..\lib\soil\src\;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)..\..\lib\glew\lib\Release\Win32;$(SolutionDir)..\..\lib\soil\lib;$(SolutionDir)..\..\lib\glfw\bin;$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)..\bin\</OutDir>
     <IntDir>$(SolutionDir)..\bin\</IntDir>
@@ -48,6 +48,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)..\bin\</OutDir>
     <IntDir>$(SolutionDir)..\bin\</IntDir>
+    <IncludePath>$(SolutionDir)..\..\lib\glm\;$(SolutionDir)..\..\lib\glew\include\;$(SolutionDir)..\..\lib\glfw\include\;$(SolutionDir)..\..\lib\soil\src\;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
